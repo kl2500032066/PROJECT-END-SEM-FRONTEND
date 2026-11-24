@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, footer {
+  background: navy;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background: black;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  min-height: 300px;
+}
+
+aside {
+  background: lightgray;
+  width: 25%;
+  padding: 20px;
+}
+
+aside p {
+  margin-top: 12px;
+}
+
+section {
+  padding: 30px;
+  width: 75%;
+}
